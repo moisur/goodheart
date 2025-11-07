@@ -33,8 +33,8 @@ const Footer: React.FC = () => {
         <div className="mt-8 border-t border-gray-700 pt-6 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-400">
           <p>&copy; {new Date().getFullYear()} The Unbuttoned Co. All rights reserved.</p>
           <div className="flex space-x-4 mt-4 sm:mt-0">
-            <a href="#" className="hover:text-white">Privacy Policy</a>
-            <a href="#" className="hover:text-white">Terms of Service</a>
+            <a href="#/privacy-policy" className="hover:text-white">Privacy Policy</a>
+            <a href="#/terms-of-service" className="hover:text-white">Terms of Service</a>
           </div>
         </div>
       </div>

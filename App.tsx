@@ -6,6 +6,7 @@ import ProductPage from './pages/ProductPage';
 import CartPage from './pages/CartPage';
 import CheckoutPage from './pages/CheckoutPage';
 import ConfirmationPage from './pages/ConfirmationPage';
+import ContactPage from './pages/ContactPage';
 
 const App: React.FC = () => {
   const [route, setRoute] = useState(window.location.hash);
@@ -35,6 +36,8 @@ const App: React.FC = () => {
         return <CheckoutPage />;
       case '#/confirmation':
         return <ConfirmationPage />;
+      case '#/contact':
+        return <ContactPage />;
       case '#/':
       default:
         return <HomePage />;

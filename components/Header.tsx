@@ -53,7 +53,7 @@ const Header: React.FC = () => {
                 <div className="hidden md:flex items-center space-x-8">
                     <a href="/#collection" className="hover:text-opacity-70 transition-colors">Shop</a>
                     <a href="/#about" className="hover:text-opacity-70 transition-colors">About</a>
-                    <a href="/#contact" className="hover:text-opacity-70 transition-colors">Contact</a>
+                    <a href="#/contact" className="hover:text-opacity-70 transition-colors">Contact</a>
                 </div>
                 <div className="flex items-center space-x-4">
                      <CartIcon />
