@@ -7,6 +7,8 @@ import CartPage from './pages/CartPage';
 import CheckoutPage from './pages/CheckoutPage';
 import ConfirmationPage from './pages/ConfirmationPage';
 import ContactPage from './pages/ContactPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import TermsOfServicePage from './pages/TermsOfServicePage';
 
 const App: React.FC = () => {
   const [route, setRoute] = useState(window.location.hash);
@@ -38,6 +40,10 @@ const App: React.FC = () => {
         return <ConfirmationPage />;
       case '#/contact':
         return <ContactPage />;
+      case '#/privacy-policy':
+        return <PrivacyPolicyPage />;
+      case '#/terms-of-service':
+        return <TermsOfServicePage />;
       case '#/':
       default:
         return <HomePage />;

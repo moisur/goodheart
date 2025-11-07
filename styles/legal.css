@@ -1,0 +1,58 @@
+/* styles/legal.css */
+.prose {
+  font-family: 'Montserrat', sans-serif;
+  color: #4A4A4A;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  color: #1a1a1a; /* brand-dark */
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.prose h1 {
+  font-size: 2.25rem;
+  border-bottom: 1px solid #E2E8F0;
+  padding-bottom: 0.5rem;
+}
+
+.prose h2 {
+  font-size: 1.875rem;
+}
+
+.prose h3 {
+  font-size: 1.5rem;
+}
+
+.prose p, .prose li {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 1.25em;
+}
+
+.prose a {
+  color: #2563EB; /* Un bleu standard, à remplacer par la couleur de votre marque si besoin */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.prose a:hover {
+  color: #1D4ED8;
+  text-decoration: underline;
+}
+
+.prose ul, .prose ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.25em;
+}
+
+.prose li {
+  margin-bottom: 0.5em;
+}
+
+.prose strong {
+  color: #1A202C;
+  font-weight: 600;
+}

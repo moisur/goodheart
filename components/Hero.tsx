@@ -19,8 +19,9 @@ const Hero: React.FC = () => {
           GooD Fingers
         </h2>
         <p className="max-w-2xl mx-auto text-lg md:text-xl text-brand-dark/80 mb-10">
-          Connection | refinement | explicit content, <br /> Let your
-          imagination do the rest.
+          Connection | <em>refinement</em> |{" "}
+          <strong>explicit content</strong>, <br />
+          Let your <em> imagination </em>do the rest.
         </p>
         <a
           href="#collection"
