@@ -16,8 +16,11 @@ const ProductPage: React.FC<ProductPageProps> = ({ productId }) => {
   
   const [notification, setNotification] = useState('');
 
+  console.log("Product ID:", productId);
+  console.log("Found Product:", product);
+
   if (!product) {
-    return <div className="container mx-auto px-6 py-20 text-center">Product not found.</div>;
+    return <div className="container mx-auto px-6 py-20 text-center">Product not found for ID: {productId}</div>;
   }
 
   const handleAddToCart = () => {
